@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15021B8A2DB95DDA008C3BCD /* Ben10 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 15021B892DB95DDA008C3BCD /* Ben10 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15021B8B2DB95DDA008C3BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15021B7D2DB95DDA008C3BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15021B882DB95DDA008C3BCD;
+			remoteInfo = "Ben10 Watch App";
+		};
+		15021B9C2DB95DDF008C3BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15021B7D2DB95DDA008C3BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15021B882DB95DDA008C3BCD;
+			remoteInfo = "Ben10 Watch App";
+		};
+		15021BA62DB95DDF008C3BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15021B7D2DB95DDA008C3BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15021B882DB95DDA008C3BCD;
+			remoteInfo = "Ben10 Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15021BB22DB95DDF008C3BCD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				15021B8A2DB95DDA008C3BCD /* Ben10 Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15021B832DB95DDA008C3BCD /* Ben10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ben10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15021B892DB95DDA008C3BCD /* Ben10 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ben10 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15021B9B2DB95DDF008C3BCD /* Ben10 Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ben10 Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15021BA52DB95DDF008C3BCD /* Ben10 Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ben10 Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		15021B8D2DB95DDA008C3BCD /* Ben10 Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ben10 Watch App";
+			sourceTree = "<group>";
+		};
+		15021B9E2DB95DDF008C3BCD /* Ben10 Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ben10 Watch AppTests";
+			sourceTree = "<group>";
+		};
+		15021BA82DB95DDF008C3BCD /* Ben10 Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ben10 Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15021B862DB95DDA008C3BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15021B982DB95DDF008C3BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15021BA22DB95DDF008C3BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15021B7C2DB95DDA008C3BCD = {
+			isa = PBXGroup;
+			children = (
+				15021B8D2DB95DDA008C3BCD /* Ben10 Watch App */,
+				15021B9E2DB95DDF008C3BCD /* Ben10 Watch AppTests */,
+				15021BA82DB95DDF008C3BCD /* Ben10 Watch AppUITests */,
+				15021B842DB95DDA008C3BCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15021B842DB95DDA008C3BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15021B832DB95DDA008C3BCD /* Ben10.app */,
+				15021B892DB95DDA008C3BCD /* Ben10 Watch App.app */,
+				15021B9B2DB95DDF008C3BCD /* Ben10 Watch AppTests.xctest */,
+				15021BA52DB95DDF008C3BCD /* Ben10 Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15021B822DB95DDA008C3BCD /* Ben10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15021BB32DB95DDF008C3BCD /* Build configuration list for PBXNativeTarget "Ben10" */;
+			buildPhases = (
+				15021B812DB95DDA008C3BCD /* Resources */,
+				15021BB22DB95DDF008C3BCD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15021B8C2DB95DDA008C3BCD /* PBXTargetDependency */,
+			);
+			name = Ben10;
+			packageProductDependencies = (
+			);
+			productName = Ben10;
+			productReference = 15021B832DB95DDA008C3BCD /* Ben10.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		15021B882DB95DDA008C3BCD /* Ben10 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15021BAF2DB95DDF008C3BCD /* Build configuration list for PBXNativeTarget "Ben10 Watch App" */;
+			buildPhases = (
+				15021B852DB95DDA008C3BCD /* Sources */,
+				15021B862DB95DDA008C3BCD /* Frameworks */,
+				15021B872DB95DDA008C3BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				15021B8D2DB95DDA008C3BCD /* Ben10 Watch App */,
+			);
+			name = "Ben10 Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Ben10 Watch App";
+			productReference = 15021B892DB95DDA008C3BCD /* Ben10 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15021B9A2DB95DDF008C3BCD /* Ben10 Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15021BB62DB95DDF008C3BCD /* Build configuration list for PBXNativeTarget "Ben10 Watch AppTests" */;
+			buildPhases = (
+				15021B972DB95DDF008C3BCD /* Sources */,
+				15021B982DB95DDF008C3BCD /* Frameworks */,
+				15021B992DB95DDF008C3BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15021B9D2DB95DDF008C3BCD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				15021B9E2DB95DDF008C3BCD /* Ben10 Watch AppTests */,
+			);
+			name = "Ben10 Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Ben10 Watch AppTests";
+			productReference = 15021B9B2DB95DDF008C3BCD /* Ben10 Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15021BA42DB95DDF008C3BCD /* Ben10 Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15021BB92DB95DDF008C3BCD /* Build configuration list for PBXNativeTarget "Ben10 Watch AppUITests" */;
+			buildPhases = (
+				15021BA12DB95DDF008C3BCD /* Sources */,
+				15021BA22DB95DDF008C3BCD /* Frameworks */,
+				15021BA32DB95DDF008C3BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15021BA72DB95DDF008C3BCD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				15021BA82DB95DDF008C3BCD /* Ben10 Watch AppUITests */,
+			);
+			name = "Ben10 Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Ben10 Watch AppUITests";
+			productReference = 15021BA52DB95DDF008C3BCD /* Ben10 Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15021B7D2DB95DDA008C3BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					15021B822DB95DDA008C3BCD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					15021B882DB95DDA008C3BCD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					15021B9A2DB95DDF008C3BCD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 15021B882DB95DDA008C3BCD;
+					};
+					15021BA42DB95DDF008C3BCD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 15021B882DB95DDA008C3BCD;
+					};
+				};
+			};
+			buildConfigurationList = 15021B802DB95DDA008C3BCD /* Build configuration list for PBXProject "Ben10" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15021B7C2DB95DDA008C3BCD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 15021B842DB95DDA008C3BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15021B822DB95DDA008C3BCD /* Ben10 */,
+				15021B882DB95DDA008C3BCD /* Ben10 Watch App */,
+				15021B9A2DB95DDF008C3BCD /* Ben10 Watch AppTests */,
+				15021BA42DB95DDF008C3BCD /* Ben10 Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15021B812DB95DDA008C3BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15021B872DB95DDA008C3BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15021B992DB95DDF008C3BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15021BA32DB95DDF008C3BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15021B852DB95DDA008C3BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15021B972DB95DDF008C3BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15021BA12DB95DDF008C3BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15021B8C2DB95DDA008C3BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15021B882DB95DDA008C3BCD /* Ben10 Watch App */;
+			targetProxy = 15021B8B2DB95DDA008C3BCD /* PBXContainerItemProxy */;
+		};
+		15021B9D2DB95DDF008C3BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15021B882DB95DDA008C3BCD /* Ben10 Watch App */;
+			targetProxy = 15021B9C2DB95DDF008C3BCD /* PBXContainerItemProxy */;
+		};
+		15021BA72DB95DDF008C3BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15021B882DB95DDA008C3BCD /* Ben10 Watch App */;
+			targetProxy = 15021BA62DB95DDF008C3BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15021BAD2DB95DDF008C3BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15021BAE2DB95DDF008C3BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		15021BB02DB95DDF008C3BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ben10 Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ben10;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OneHit.Ben10.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		15021BB12DB95DDF008C3BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ben10 Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ben10;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OneHit.Ben10.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		15021BB42DB95DDF008C3BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Ben10;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OneHit.Ben10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15021BB52DB95DDF008C3BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Ben10;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OneHit.Ben10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15021BB72DB95DDF008C3BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneHit.Ben10-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ben10 Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ben10 Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		15021BB82DB95DDF008C3BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneHit.Ben10-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ben10 Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ben10 Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		15021BBA2DB95DDF008C3BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneHit.Ben10-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Ben10 Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		15021BBB2DB95DDF008C3BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneHit.Ben10-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Ben10 Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15021B802DB95DDA008C3BCD /* Build configuration list for PBXProject "Ben10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15021BAD2DB95DDF008C3BCD /* Debug */,
+				15021BAE2DB95DDF008C3BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15021BAF2DB95DDF008C3BCD /* Build configuration list for PBXNativeTarget "Ben10 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15021BB02DB95DDF008C3BCD /* Debug */,
+				15021BB12DB95DDF008C3BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15021BB32DB95DDF008C3BCD /* Build configuration list for PBXNativeTarget "Ben10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15021BB42DB95DDF008C3BCD /* Debug */,
+				15021BB52DB95DDF008C3BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15021BB62DB95DDF008C3BCD /* Build configuration list for PBXNativeTarget "Ben10 Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15021BB72DB95DDF008C3BCD /* Debug */,
+				15021BB82DB95DDF008C3BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15021BB92DB95DDF008C3BCD /* Build configuration list for PBXNativeTarget "Ben10 Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15021BBA2DB95DDF008C3BCD /* Debug */,
+				15021BBB2DB95DDF008C3BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15021B7D2DB95DDA008C3BCD /* Project object */;
+}
